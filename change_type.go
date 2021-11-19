@@ -69,10 +69,22 @@ func (c ChangeType) String() string {
 		"partition-fire-alarm",
 		"partition-alarm-memory",
 		"partition-fire-alarm-memory",
-		"output"}
-	if int(c) < len(strings) {
-		return strings[c]
-	} else {
-		return "unknown"
+		"output",
+		"doors-opened",
+		"doors-opened-long",
+		"status-bit",
+		"trouble-part-1",
+		"trouble-part-2",
+		"trouble-part-3",
+		"trouble-part-4",
+		"trouble-part-5",
+		"trouble-memory-part-1",
+		"trouble-memory-part-2",
+		"trouble-memory-part-3",
+		"trouble-memory-part-4",
+		"trouble-memory-part-5",
+		"partition-with-violated-zones",
+		"zone-isolate",
 	}
+	return strings[c]
 }
