@@ -36,7 +36,7 @@ s := satel.NewConfig("<ip:port>", satel.Config{EventsQueueSize: 1000})
 go func() {
     value := true
     for {
-        s.SetOutput("<user code>", <port number> value)
+        s.SetOutput("<user code>", <port number>, value)
         time.Sleep(5 * time.Second)
         value = !value
     }
