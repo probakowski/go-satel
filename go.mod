@@ -1,4 +1,4 @@
-module go-satel
+module github.com/probakowski/go-satel
 
 go 1.16
 
